@@ -1,0 +1,63 @@
+h1 {
+    font-size: 50px;
+    font-family: Verdana;
+    color: white;
+}
+
+.y h1 {
+    font-size: 45px;
+    font-family: Comic Sans MS;
+    color: whitesmoke;
+}
+
+.help {
+    display: inline-grid;
+    border-radius: 20px;
+  }
+.calculator {
+    display: inline-grid;
+    border-radius: 20px;
+  }
+.info {
+    display: inline-grid;
+    border-radius: 20px;
+  }
+  .prefix {
+    display: inline-grid;
+    border-radius: 20px;
+    position: relative;
+    bottom: -1cm;
+  }
+
+@media(max-width: 800px) {
+    h1 {
+        font-size: 30px
+    }
+    .y h1 {
+        font-size: 25px;
+    }
+    .help {
+        display: inline-grid;
+        border-radius: 20px;
+        position: relative;
+        bottom: -1cm;
+      }
+    .calculator {
+        display: inline-grid;
+        border-radius: 20px;
+        position: relative;
+        bottom: -2cm;
+      }
+    .info {
+        display: inline-grid;
+        border-radius: 20px;
+        position: relative;
+        bottom: -3cm;
+      }
+      .prefix {
+        display: inline-grid;
+        border-radius: 20px;
+        position: relative;
+        bottom: -4cm;
+      }
+}
